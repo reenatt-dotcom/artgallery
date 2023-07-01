@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image 2</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Girl with a Pearl Earring</h1>
+  <div class="image-container">
+    <img src="images/girlwithapearlearring.jpg" alt="Image 2">
+  </div>
+  <p>
+    <strong>Artist:</strong> Johannes Vermeer<br>
+    <strong>Year:</strong> 1665<br>
+    <strong>Medium:</strong> Oil on canvas<br>
+    <strong>Dimensions:</strong> 44.5 cm × 39 cm (17.5 in × 15.4 in)<br>
+    <strong>Location:</strong> Mauritshuis, The Hague, Netherlands
+  </p>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

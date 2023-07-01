@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image 15</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vincent van Gogh Self-Portrait</h1>
+  <div class="image-container">
+    <img src="images/vangoghselfportrait.jpg" alt="Image 15">
+  </div>
+  <p>
+    <strong>Artist:</strong> Vincent van Gogh<br>
+    <strong>Year:</strong> 1889<br>
+    <strong>Medium:</strong> Oil on canvas<br>
+    <strong>Dimensions:</strong> 65 cm × 54 cm (25.6 in × 21.3 in)<br>
+    <strong>Location:</strong> Musée d'Orsay, Paris
+  </p>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

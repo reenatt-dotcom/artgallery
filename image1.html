@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image 1</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Arnolfini Portrait</h1>
+  <div class="image-container">
+    <img src="images/arnolfiniportrait.jpg" alt="Image 1">
+  </div>
+  <p>
+    <strong>Artist:</strong> Jan van Eyck<br>
+    <strong>Year:</strong> 1434<br>
+    <strong>Medium:</strong> Oil on oak panel<br>
+    <strong>Dimensions:</strong> 82.2 cm × 60 cm (32.4 in × 23.6 in)<br>
+    <strong>Location:</strong> National Gallery, London
+  </p>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image 5</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mona Lisa</h1>
+  <div class="image-container">
+    <img src="images/monalisa.jpg" alt="Image 5">
+  </div>
+  <p>
+    <strong>Artist:</strong> Leonardo da Vinci<br>
+    <strong>Year:</strong> c. 1503–1506<br>
+    <strong>Medium:</strong> Oil on poplar panel<br>
+    <strong>Dimensions:</strong> 77 cm × 53 cm (30 in × 21 in)<br>
+    <strong>Location:</strong> Louvre Museum, Paris, France
+  </p>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

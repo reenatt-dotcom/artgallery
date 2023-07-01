@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image 7</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Starry Night</h1>
+  <div class="image-container">
+    <img src="images/starrynight.jpg" alt="Image 7">
+  </div>
+  <p>
+    <strong>Artist:</strong> Vincent van Gogh<br>
+    <strong>Year:</strong> 1889<br>
+    <strong>Medium:</strong> Oil on canvas<br>
+    <strong>Dimensions:</strong> 73.7 cm × 92.1 cm (29 in × 36 1/4 in)<br>
+    <strong>Location:</strong> Museum of Modern Art, New York City, USA
+  </p>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

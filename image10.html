@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image 10</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Great Wave off Kanagawa</h1>
+  <div class="image-container">
+    <img src="images/thegreatwaveofkanagawa.jpg" alt="Image 10">
+  </div>
+  <p>
+    <strong>Artist:</strong> Katsushika Hokusai<br>
+    <strong>Year:</strong> circa 1829–1833<br>
+    <strong>Medium:</strong> Color woodblock print<br>
+    <strong>Dimensions:</strong> 25.7 cm × 37.8 cm (10 1/8 in × 14 7/8 in)<br>
+    <strong>Location:</strong> Metropolitan Museum of Art, USA
+  </p>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
