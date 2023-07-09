@@ -18,7 +18,7 @@ The Art Gallery is an online platform that showcases a diverse collection of cap
 
 <h2>Deployed Version</h2>
 
-Check out the live version of the Art Gallery [here](https://your-deployed-url.com). Explore the captivating world of art and immerse yourself in creativity.
+Check out the live version of the Art Gallery [here](https://planetfact-tau.vercel.app/). Explore the captivating world of art and immerse yourself in creativity.
 <h2>Contributing</h2>
 Contributions to enhance the Art Gallery are welcome. If you would like to contribute, please follow these steps:
 <ol>
