@@ -2,29 +2,36 @@
 <html>
 <head>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    .image-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr); /* 4 columns */
-      gap: 0; /* Remove any gap between grid cells */
-      padding: 0; /* Remove padding */
-    }
-
     .image-container a {
-      display: block;
-      margin: 0;
-      line-height: 0;
-    }
+  display: block;
+  margin: 0;
+  line-height: 0;
+}
 
-    .image-container img {
-      width: 25vw; /* Each image takes up 25% of the viewport width */
-      height: 25vw; /* Equal height to match the width */
-      object-fit: cover; /* Preserve the aspect ratio while covering the available space */
-    }
+.image-container img {
+  width: 100%; /* Make images fill the entire width */
+  height: 100%; /* Make images fill the entire height */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .image-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .image-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    grid-template-columns: 1fr; /* 1 column for very small screens */
+  }
+}
   </style>
 </head>
 <body>
